@@ -1,0 +1,11 @@
+This folder includes the p-values extracted from RVASs; notes for extract and process features 
+
+* asd2020s2_genescore.txt
+ASD RVAS results, this is supplementary table 2 from the original paper. The original xlsx file is changed to text file.
+source: Large-Scale Exome Sequencing Study Implicates Both Developmental and Functional Changes in the Neurobiology of Autism
+
+* SCHEMA_2021_03_11_07_53_20.csv
+SCZ RVAS results, this is directly downloaded from SCHEMA website on 3/11/2021
+source: https://schema.broadinstitute.org/results ("export results to CSV")
+Reference: Exome sequencing identifies rare coding variants in 10 genes which confer substantial risk for schizophrenia
+

@@ -1,0 +1,8 @@
+This folder contains results using BH procedure for p-value adjustment and using IHW with prediction scores as covariates
+
+* ASD_IHW_output.042921.txt
+Results from adjusting ASD RVAS p-values
+
+* SCZ_IHW_output.042921.txt
+Results from adjusting SCZ RVAS p-values
+

@@ -1,0 +1,20 @@
+# This is the README file for /SCZIHW_public/scripts
+The scripts in this folder are:
+
+* step0_iRIGS_training.sh
+This is the script to generate labeled training genes (i.e., positive and negative instances)
+
+* step1_RF_prediction.R
+This is the script to do random forest prediction based on training genes and selected features
+
+Example:  Rscript  /scripts/step1_RF_prediction.R LAKE.fmt.rds   data/training_labels/scz.top1.v7.t0 data/training_labels/LPG.v7.t0 10
+Inputs: training genes (postive: scz.top1.v7.t0, negative: LPG.v7.t0), feature set (LAKE.fmt.rds), number of iterations (10). 
+Outputs: prediction score of all genes across all iterations; feature importance plot from 3 iterations; feature importance in text; AUC in all iterations in text; AUC plot from 1 iteration
+
+* step2_IHW_SCHEMA_diagnoseplots.R
+This is the script to use predictions as covariates for hypothesis weighting
+Prerequisite: 
+- for hypothesis weighting: the R package 'IHW' will be needed (http://bioconductor.org/packages/release/bioc/html/IHW.html)
+- for plots: the R package 'ggplot2' will be needed
+
+
